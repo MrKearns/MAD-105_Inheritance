@@ -1,16 +1,23 @@
-class Person (firstName: String, lastName: String){
+open class Customer (name: String, phoneNumber: String, address: String, squareFootage: Double){
 
-        var firstName: String = ""
-        var lastName: String = ""
-        var fullName: String = ""
+    var name: String = ""
+    var address: String = ""
+    var phoneNumber: String = ""
+    var squareFootage = 0.0
 
     init{
-        this.firstName = firstName
-        this.lastName = lastName
-        fullName = setFullName()
+        this.name = name
+        this.address = address
+        this.phoneNumber = phoneNumber
+        this.squareFootage = squareFootage
     }
 
-    fun setFullName(): String{
-        return "$firstName $lastName"
+
+    fun displayInfo(){
+        println(name)
+        println(address)
+        println(phoneNumber)
+        println(squareFootage)
     }
+
 }
