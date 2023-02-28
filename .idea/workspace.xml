@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f34b5e3-d3c6-453c-aea0-82bfb617f118" name="Changes" comment="">
+    <list default="true" id="8f34b5e3-d3c6-453c-aea0-82bfb617f118" name="Changes" comment="all">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Commercial.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Commercial.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Customer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Customer.kt" afterDir="false" />
@@ -59,8 +59,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677602119754</updated>
-      <workItem from="1677602121690" duration="10908000" />
+      <workItem from="1677602121690" duration="11898000" />
     </task>
+    <task id="LOCAL-00001" summary="all">
+      <created>1677615973175</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677615973175</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -68,5 +76,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="all" />
+    <option name="LAST_COMMIT_MESSAGE" value="all" />
   </component>
 </project>

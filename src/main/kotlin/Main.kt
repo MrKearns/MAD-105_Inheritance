@@ -1,4 +1,17 @@
+/**
+ * Commercial Class
+ * @author Jonathan Kearns
+ * date: 2/28/23
+ *
+ * @param
+ * choice = user's menu choice
+
+ */
+
 fun main(args: Array<String>) {
+
+
+    // print out menu
 
     println("---- Customers -----")
     println("1: Residential")
@@ -6,6 +19,8 @@ fun main(args: Array<String>) {
     println("3: Exit")
     println("Choose customer type or exit: ")
     var choice = readln().toString()
+
+    // switch to handle user's choice
 
     when (choice) {
         "1" -> {
@@ -22,6 +37,7 @@ fun main(args: Array<String>) {
 
         "3" -> println("Goodbye")
 
+        // if choice not on menu
         else -> {
             println("invalid Choice. Choose again: ")
             println("---- Customers -----")
@@ -33,7 +49,5 @@ fun main(args: Array<String>) {
 
     }
 
-//    customer1.weeklyCharges()
-//    customer2.weeklyCharges()
 
 }
