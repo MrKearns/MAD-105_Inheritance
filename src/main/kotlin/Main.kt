@@ -8,7 +8,7 @@
 
  */
 
-fun main(args: Array<String>) {
+fun main(args: Array<String>?) {
 
 
     // print out menu
@@ -40,11 +40,7 @@ fun main(args: Array<String>) {
         // if choice not on menu
         else -> {
             println("invalid Choice. Choose again: ")
-            println("---- Customers -----")
-            println("1: Residential")
-            println("2: Commercial")
-            println("3: Exit")
-            println("Choose customer type or exit: ")
+            main(null)
         }
 
     }
